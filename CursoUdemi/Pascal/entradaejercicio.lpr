@@ -1,17 +1,17 @@
 program entradaejercicio;
 
 var nombre: string;
-    edad: byte;
     nombreDos: string;
+    edad: byte;
     edadDos: byte;
 begin
   write('Escribe tu nombre: ');
   readln(nombre);
-  write('Escribe tu edad: ');
+  write(nombre + ' Escribe tu edad: ');
   readln(edad);
-  write('Escribe el nombre de tu pariente: ');
+  write('Usuario 2 escribe el nombre de tu pariente: ');
   readln(nombreDos);
-  write('Escribe la edad de tu pariente: ');
+  write(nombreDos + ' Escribe tu edad: ');
   readln(edadDos);
   write('Tu nombre es ' + nombre +' y tu edad ',edad,' el nombre de tu pariente es '+ nombreDos + ' y su edad ',edadDos);
   readln;

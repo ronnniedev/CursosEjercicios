@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="D:\Lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1488546183"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -FiC:\Users\mario\OneDrive\Desktop\CursosEjercicios\CursoUdemi\Pascal\lib\x86_64-win64 -FuC:\Users\mario\OneDrive\Desktop\CursosEjercicios\CursoUdemi\Pascal\ -FUC:\Users\mario\OneDrive\Desktop\CursosEjercicios\CursoUdemi\Pascal\lib\x86_64-win64\ -FEC:\Users\mario\OneDrive\Desktop\CursosEjercicios\CursoUdemi\Pascal\ -oC:\Users\mario\OneDrive\Desktop\CursosEjercicios\CursoUdemi\Pascal\variablereal.exe variablereal.lpr"/>
+</CONFIG>
