@@ -11,7 +11,7 @@ begin
   writeln('Escribeme el ancho: ');
   readln(ancho);
 
-  while  ancho > largo  do
+  while  ancho >= largo  do
    begin
       writeln('El ancho no puede ser mayor que el largo introducelo de nuevo: ');
       readln(ancho);

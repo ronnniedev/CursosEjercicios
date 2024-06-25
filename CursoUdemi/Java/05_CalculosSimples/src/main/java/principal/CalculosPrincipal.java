@@ -6,24 +6,21 @@ public class CalculosPrincipal {
     
     public static void main (String args[]){
         Scanner consola = new Scanner(System.in);
-        double valor;
-        double suma;
+        final double PI = 3.141592; // CONSTANTES FINALES
+        double radio;
+        double perimetro;
+        double area;
         
-        System.out.print("Ingresa valor 1: ");
-        suma = consola.nextDouble();
+        System.out.println("Ingresa el radio: ");
+        radio = consola.nextDouble();
         consola.nextLine();
         
-        System.out.print("Ingresa valor 2: ");
-        valor = consola.nextDouble();
-        consola.nextLine();
-        suma = suma + valor;
+        perimetro = (radio*2)*PI;
+        area = radio*radio*PI;
         
-        System.out.print("Ingresa valor 3: ");
-        valor = consola.nextDouble();
-        consola.nextLine();
-        suma = suma + valor;
-        
-        System.out.printf("El area sera: %.2f", suma/3);
+        System.out.println("P= "+ perimetro+" A= "+area);
+                
+          
         
     }
 }

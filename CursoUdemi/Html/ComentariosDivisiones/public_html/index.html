@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <!-- Titulo de la pagina -->
+        <title>Comentarios y Divisiones</title>
+        <meta charset="UTF-8">
+         
+    </head>
+    <body>
+        <script>
+            //Comentario de una sola línea;
+            var numeroCuatroC;
+            var c1,c2,c3,c4;
+            
+            numeroCuatroC= window.prompt("Ingresa un entero de 4 cifras: ");
+            
+            c1= numeroCuatroC % 10;
+            c2= Math.trunc(numeroCuatroC/10)% 10; //truncamos el resultado
+            c3= Math.trunc(numeroCuatroC/100)% 10; //truncamos el resultado
+            c4= Math.trunc(numeroCuatroC/1000); //truncamos el resultado
+            
+            document.writeln(c1+""+c2+""+c3+""+c4);
+        </script>
+    </body>
+</html>
