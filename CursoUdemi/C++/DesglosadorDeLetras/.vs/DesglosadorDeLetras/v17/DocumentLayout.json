@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\DesglosadorDeLetras\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C391C53-AC0B-42F2-8E8C-8824C0BD731C}|DesglosadorDeLetras.vcxproj|C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\DesglosadorDeLetras\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0C391C53-AC0B-42F2-8E8C-8824C0BD731C}|DesglosadorDeLetras.vcxproj|solutionrelative:Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\DesglosadorDeLetras\\Source.cpp",
+              "RelativeDocumentMoniker": "Source.cpp",
+              "ToolTip": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\DesglosadorDeLetras\\Source.cpp",
+              "RelativeToolTip": "Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-26T09:30:57.594Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
