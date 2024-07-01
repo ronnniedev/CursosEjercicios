@@ -1,2 +1,3 @@
-﻿  Source.cpp
+﻿  SentenciasIf.cpp
+C:\Users\mario\OneDrive\Desktop\CursosEjercicios\CursoUdemi\C++\InferenciadeTipos\SentenciasIf.cpp(7,19): warning C4305: 'initializing': truncation from 'double' to 'float'
   InferenciadeTipos.vcxproj -> C:\Users\mario\OneDrive\Desktop\CursosEjercicios\CursoUdemi\C++\InferenciadeTipos\x64\Debug\Ejercicios.exe

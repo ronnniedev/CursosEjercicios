@@ -15,28 +15,36 @@ begin
   write('Opcion: ');
   readln(opcion);
 
-  if opcion = '1' then begin
+  case opcion of
+  '1': begin
     write('Ingresa el largo = ');
     readln(largo);
     write('Ingresa el ancho = ');
     readln(ancho);
 
     write('El perimetro del rectangulo es ',largo*2+ancho*2:4:2);
-
-  end else if opcion = '2' then begin
-    write('Ingresa el largo = ');
-    readln(largo);
-    write('Ingresa el ancho = ');
-    readln(ancho);
-    write('El area del rectangulo es ',ancho*largo:4:2);
-
-  end else if opcion = '0' then begin
-      writeln('Gracias por participar');
-  end else begin
-      writeln('ERROR: La opcion que el usuario ingreso no es valida');
   end;
+  '2': begin
+   write('Ingresa el largo = ');
+   readln(largo);
+   write('Ingresa el ancho = ');
+   readln(ancho);
+   write('El area del rectangulo es ',ancho*largo:4:2);
+
+   end;
+    '0': begin
+    writeln('Gracias por participar');
+    end;
+  else begin
+       writeln('ERROR: La opcion que el usuario ingreso no es valida');
+  end;
+
+    end;
 
   writeln('Presiona ENTER para salir...');
   readln;
+
 end.
+
+
 

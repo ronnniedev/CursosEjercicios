@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Usando if</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+            const PI = 3.14;
+            const MENSAJE_ERROR = "ERROR: Ingresa un valor mayor que 0.";
+            var opcion = window.prompt("Elige una opcion:\n" +
+                                       "a) Perimetro de rectangulo\n" +
+                                       "c) Perimetro de circunferencia\n"
+                                       +"d) Area de circunferencia \n\n"
+                                       +"x) SALIR");
+            var largo;
+            var ancho;
+            var radio;
+            
+            switch(opcion){
+               case "a":
+               case "A":
+               largo = window.prompt("Largo =");
+               ancho = window.prompt("Ancho =");
+               
+               hayError = (largo <= 0) || ancho <= 0;
+               
+               if(hayError){
+                   window.alert(MENSAJE_ERROR);
+               }else{   
+                   window.alert("Perimetro= "+(largo*2+ancho*2)); 
+               }
+               
+               
+               break;
+                case "b":
+                case "B":    
+                    ancho = window.prompt("Ancho =");                                   
+                    largo = window.prompt("Largo =");
+                    
+                    hayError = (largo <= 0) || ancho <= 0;
+               
+                    if(hayError){
+                        window.alert(MENSAJE_ERROR);
+                    }else{   
+                       window.alert("Area= "+(largo*ancho)); 
+                    }
+                    
+                    break;
+                case "c":
+                case 'C':
+                    radio = window.prompt("Radio =");
+               
+                    if(radio <= 0){
+                        window.alert(MENSAJE_ERROR);
+                    }else{   
+                       window.alert("Perimetro= "+ radio*2*PI); 
+                    }
+                    
+                    break
+                case "d":
+                    radio = window.prompt("Radio =");
+                    
+                    if(radio <= 0){
+                        window.alert(MENSAJE_ERROR);
+                    }else{   
+                       window.alert("Area= "+ radio*radio*PI); 
+                    }
+                    
+                    break;
+                case "x":
+                    break;
+                default:
+                    window.alert("ERROR: opcion no valida");
+            }
+            document.write("Finalizado.");  
+        </script>
+    </body>
+</html>

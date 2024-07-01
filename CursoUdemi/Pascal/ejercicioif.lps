@@ -9,7 +9,8 @@
         <Filename Value="ejercicioif.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="40" Y="39"/>
+        <TopLine Value="3"/>
+        <CursorPos X="3" Y="27"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
