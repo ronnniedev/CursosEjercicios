@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Uso de for</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+            var impresion= ""; // Acumulamos *
+            var impresionHTML= ""; // Acumulamos *
+            var cantidadAsteriscos = window.prompt("¿Cuantos asteriscos quieres imprimir?");
+            if(cantidadAsteriscos <= 0){
+                windows.prompt("ERROR: Ingresa un valor mayor que 0");
+            }else{
+               for(let i=1; i <=cantidadAsteriscos; i++){
+                   for(let j = 1; j <= i; j++){
+                     impresion = impresion + "*"; 
+                     impresionHTML = impresionHTML + "*";
+                   }
+                   impresion = impresion+ "\n";
+                   impresionHTML = impresionHTML + "<br>";
+                }     
+            }
+ 
+            window.alert(impresion);
+            document.write(impresionHTML);
+            
+        </script>
+        
+    </body>
+</html>

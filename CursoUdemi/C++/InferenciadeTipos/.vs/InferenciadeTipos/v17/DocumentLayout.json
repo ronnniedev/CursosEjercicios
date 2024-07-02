@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{070D0487-2095-451B-96C7-0DF340869706}|InferenciadeTipos.vcxproj|C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\For.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{070D0487-2095-451B-96C7-0DF340869706}|InferenciadeTipos.vcxproj|solutionrelative:For.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{070D0487-2095-451B-96C7-0DF340869706}|InferenciadeTipos.vcxproj|C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\SentenciasIf.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{070D0487-2095-451B-96C7-0DF340869706}|InferenciadeTipos.vcxproj|solutionrelative:SentenciasIf.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -23,19 +27,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SentenciasIf.cpp",
-              "DocumentMoniker": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\SentenciasIf.cpp",
-              "RelativeDocumentMoniker": "SentenciasIf.cpp",
-              "ToolTip": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\SentenciasIf.cpp",
-              "RelativeToolTip": "SentenciasIf.cpp",
-              "ViewState": "AQIAAEkAAAAAAAAAAADwv14AAAAEAAAA",
+              "Title": "For.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\For.cpp",
+              "RelativeDocumentMoniker": "For.cpp",
+              "ToolTip": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\For.cpp",
+              "RelativeToolTip": "For.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-26T10:30:08.556Z",
+              "WhenOpened": "2024-07-02T10:09:18.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SentenciasIf.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\SentenciasIf.cpp",
+              "RelativeDocumentMoniker": "SentenciasIf.cpp",
+              "ToolTip": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\SentenciasIf.cpp",
+              "RelativeToolTip": "SentenciasIf.cpp",
+              "ViewState": "AQIAAEMAAAAAAAAAAADwv2oAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-26T10:30:08.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\Source.cpp",
               "RelativeDocumentMoniker": "Source.cpp",

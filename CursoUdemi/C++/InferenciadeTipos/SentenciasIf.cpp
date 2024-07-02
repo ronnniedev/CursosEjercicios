@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+/*
 int main() {
 	using namespace std; //con esto ya no es necesario escribir std todo el rato
 
@@ -46,7 +46,7 @@ int main() {
 
 				cout << "Perimetro= " << largo * 2 + ancho * 2;
 			}
-			
+
 			break;
 		case 'b':
 		case 'B':
@@ -69,7 +69,7 @@ int main() {
 			else {
 				cout << "Area= " << largo * ancho;
 			}
-			
+
 			break;
 		case 'c':
 		case 'C':
@@ -100,8 +100,11 @@ int main() {
 		default:
 			cout << "ERROR: ingresa una opcion valida";
 			break;
-			
+
 	}
 
 	return 0;
 }
+
+*/
+
