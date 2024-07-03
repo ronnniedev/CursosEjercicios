@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{070D0487-2095-451B-96C7-0DF340869706}|InferenciadeTipos.vcxproj|C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\For.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{070D0487-2095-451B-96C7-0DF340869706}|InferenciadeTipos.vcxproj|solutionrelative:For.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{070D0487-2095-451B-96C7-0DF340869706}|InferenciadeTipos.vcxproj|C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\Source1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{070D0487-2095-451B-96C7-0DF340869706}|InferenciadeTipos.vcxproj|solutionrelative:Source1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{070D0487-2095-451B-96C7-0DF340869706}|InferenciadeTipos.vcxproj|C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\SentenciasIf.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -13,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{070D0487-2095-451B-96C7-0DF340869706}|InferenciadeTipos.vcxproj|C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{070D0487-2095-451B-96C7-0DF340869706}|InferenciadeTipos.vcxproj|solutionrelative:Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{070D0487-2095-451B-96C7-0DF340869706}|InferenciadeTipos.vcxproj|C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\For.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{070D0487-2095-451B-96C7-0DF340869706}|InferenciadeTipos.vcxproj|solutionrelative:For.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,12 +31,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Source1.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\Source1.cpp",
+              "RelativeDocumentMoniker": "Source1.cpp",
+              "ToolTip": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\Source1.cpp",
+              "RelativeToolTip": "Source1.cpp",
+              "ViewState": "AQIAAEoAAAAAAAAAAADwv3YAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-03T09:53:00.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "For.cpp",
               "DocumentMoniker": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\For.cpp",
               "RelativeDocumentMoniker": "For.cpp",
               "ToolTip": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\For.cpp",
               "RelativeToolTip": "For.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvycAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-02T10:09:18.392Z",
               "EditorCaption": ""
@@ -45,9 +62,10 @@
               "RelativeDocumentMoniker": "SentenciasIf.cpp",
               "ToolTip": "C:\\Users\\mario\\OneDrive\\Desktop\\CursosEjercicios\\CursoUdemi\\C\u002B\u002B\\InferenciadeTipos\\SentenciasIf.cpp",
               "RelativeToolTip": "SentenciasIf.cpp",
-              "ViewState": "AQIAAEMAAAAAAAAAAADwv2oAAAABAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAGkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-26T10:30:08.556Z"
+              "WhenOpened": "2024-06-26T10:30:08.556Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -59,7 +77,8 @@
               "RelativeToolTip": "Source.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-26T09:47:17.365Z"
+              "WhenOpened": "2024-06-26T09:47:17.365Z",
+              "EditorCaption": ""
             }
           ]
         }

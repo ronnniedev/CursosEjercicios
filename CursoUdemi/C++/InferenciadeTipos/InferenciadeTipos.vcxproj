@@ -131,6 +131,7 @@
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="SentenciasIf.cpp" />
     <ClCompile Include="For.cpp" />
+    <ClCompile Include="Source1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -3,10 +3,12 @@
 #include <time.h>
 #include <stdlib.h>
 
+
+/*
 int main() {
 	srand(time(0)); //funcion para randomizar numeros
-	
-	
+
+
 	int numeroAAdivinar = rand() %100 +1;
 	const int CANTIDAD_INTENTOS = 10;
 	int numero;
@@ -36,3 +38,4 @@ int main() {
 
 	return 0;
 }
+*/

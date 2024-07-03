@@ -13,23 +13,21 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <script>
             var numeroAAdivinar = Math.floor((Math.random()*100)+1);
             var numero;
+            var adivino;
             
+            numero = window.prompt("Ingresa un número para intentar adivinar o 0 para salir: ");
+            adivino = numeroAAdivinar==numero;
             
-            for(let i = 0; i < 5; i++){
-            
-                numero = window.prompt("Escribe el numero a adivinar (" + (5-i) + " intentos)"); // siempre lo recoge como un String
-                numero = Number(numero); //recasteamos a numero
+            while((!adivino)&&(numero!=0)){
+                numero = window.prompt("Ingresa un numero para intentar adivinar o 0 para salir: ");
+                adivino= numeroAAdivinar==numero;
                 
-                if (numero === numeroAAdivinar){
-                    window.alert("Ganaste");
-                    document.write("Ganaste");
-                    break;
-                }
-                numero = -1;
             }
             
-            if (numero === -1){
-                document.write("Perdiste");
+            if (adivino){
+                document.write("GENIAL");
+            }else{
+                document.write("Una lastima. El numero era " + numeroAAdivinar);
             }
             
         </script>
