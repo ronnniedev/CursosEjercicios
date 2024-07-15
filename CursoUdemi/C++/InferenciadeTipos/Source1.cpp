@@ -4,10 +4,6 @@
 int main() {
 	int numero = 0;
 
-	while (numero != 10) {
-		numero++;
-		std::cout << numero << "|" << std::endl;
-
 		using namespace std; //con esto ya no es necesario escribir std todo el rato
 
 		const float PI = 3.14;
@@ -22,12 +18,13 @@ int main() {
 			<< "b) Area de rectangulo\n"
 			<< "c) Perimetro de circunferencia \n"
 			<< "d) Area de circunferencia\n\n"
-			<< "e) SALIR\n\n"
+			<< "x) SALIR\n\n"
 			<< ">> ";
 
 		cin >> opcion;
+		cout << opcion;
 
-		while (opcion != 'x' && opcion != 'X') {
+		do {
 			switch (opcion) {
 			case 'a':
 			case 'A':
@@ -116,14 +113,9 @@ int main() {
 				<< "b) Area de rectangulo\n"
 				<< "c) Perimetro de circunferencia \n"
 				<< "d) Area de circunferencia\n\n"
-				<< "e) SALIR\n\n"
+				<< "x) SALIR\n\n"
 				<< ">> ";
 
 			cin >> opcion;
-		}
-		
-
-		
-	
-	}
+		} while ((opcion != 'X') && (opcion != 'x'));
 }

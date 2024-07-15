@@ -18,11 +18,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             numero = window.prompt("Ingresa un número para intentar adivinar o 0 para salir: ");
             adivino = numeroAAdivinar==numero;
             
-            while((!adivino)&&(numero!=0)){
+            do{
                 numero = window.prompt("Ingresa un numero para intentar adivinar o 0 para salir: ");
                 adivino= numeroAAdivinar==numero;
                 
-            }
+            }while((!adivino)&&(numero!=0));
             
             if (adivino){
                 document.write("GENIAL");
