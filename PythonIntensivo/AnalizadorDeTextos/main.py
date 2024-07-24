@@ -45,3 +45,12 @@ if "python" in texto.lower():
     print("si")
 else :
     print("no")
+
+numero = 10
+cont = 0
+
+while cont != numero:
+    print(cont)
+    cont += 1
+
+
