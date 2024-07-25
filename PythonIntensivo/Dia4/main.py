@@ -2,7 +2,7 @@ from random import randint
 
 intentos = 8
 acertado = False
-numero = randint(0,101)
+numero = randint(0,100)
 nombre = input("Escribeme tu nombre: ")
 print(numero)
 
@@ -24,4 +24,4 @@ while intentos > 0 and not acertado:
     intentos -= 1
 
 if not acertado:
-    print("Has perdido, vuelve a intentarlo la proxima vez")
+    print(f"Has perdido, vuelve a intentarlo la proxima vez el numero secreto era {numero}")
